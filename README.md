@@ -1,11 +1,11 @@
 # **Obligatorisk afleveringsopgave: E-sports turneringsplatform (Assignment 1 - 20 study points)**
 
 ## **🎯 Opgavens Formål**
-I denne opgave skal du **designe og implementere en database** til en **E-sports Turneringsplatform** ved hjælp af **MySQL** (eller anden selvvalgt relationel database). Du skal:
+I denne opgave skal I **designe og implementere en database** til en **E-sports Turneringsplatform** ved hjælp af **MySQL** (eller anden selvvalgt relationel database). I skal:
 - **Definere en relationel database ud fra en given datamodel.**
 - **Udarbejde SQL-scripts til at oprette tabeller, indsætte data og forespørgsler på databasen.**
 - **Implementere stored Procedures, functions og triggers.**
-- **Bruge databasen fra en applikation via JDBC/ORM (JPA).**
+- **Bruge databasen fra en applikation.**
 ---
 
 ## **1️⃣ Databasedesign og oprettelse af databasen**
@@ -72,40 +72,26 @@ For at automatisere platformens funktioner skal du implementere:
 ---
 
 ## **4️⃣ Brug af Databasen fra en Applikation (JDBC/ORM)**
-Du skal udvikle en simpel **applikation**, der interagerer med databasen via en applikation. Hvis du bruger Java kan det være **JDBC eller JPA**.
+Du skal udvikle en simpel **applikation**, der interagerer med databasen via en applikation. Hvis du bruger Java kan det være via **JDBC eller JPA**.
 
 📌 **Din opgave:**
-1. **Implementér en JDBC-baseret løsning**:
-   - Opret forbindelse til MySQL.
-   - Kald stored procedures (`JoinTournament`, `SubmitMatchResult`).
-   - Udfør SQL-forespørgsler via `PreparedStatement`.
-
-2. **Implementér en ORM-baseret løsning (JPA/Hibernate)**:
-   - Definer `Entity`-klasser for `Players`, `Tournaments`, `Matches`.
-   - Brug `EntityManager` til CRUD-operationer.
-   - Kald stored procedures via JPA (`@NamedStoredProcedureQuery`).
+**Implementér en løsning, hvor applikationen**:
+- Kalder stored procedures (`joinTournament`, `submitMatchResult`).
+- Udfører sammen funktionalitet uden brug af stored procedures (via `PreparedStatement` hvis du bruger JDBC).
 
 ---
 
-## **📌 5️⃣ Aflevering**
-### **📁 Du skal aflevere:**
-1. **SQL-scriptet** med databaseoprettelse.
-2. **15 SQL-forespørgsler**.
+## **5️⃣ Aflevering**
+### **I skal aflevere:**
+1. **SQL-script** med databaseoprettelse.
+2. **SQL script** med de 15 SQL-forespørgsler.
 3. **Stored Procedures, Functions og Triggers**.
-4. **Java-applikationen (JDBC + JPA)**.
-5. **Kort dokumentation** om hvordan løsningen fungerer.
+4. **Applikation**, der kalder stored procedures, som angivet i opgave 4.
+5. **Dokumentation** for at løsningen fungerer.
 
----
-
-## **📌 Vurderingskriterier**
-| **Kriterie** | **Vurdering** |
-|-------------|--------------|
-| Databaseoprettelse | Rigtigt design, brug af constraints |
-| SQL-forespørgsler | Effektivitet, korrekt resultat |
-| Stored Procedures, Functions, Triggers | Funktionalitet og anvendelighed |
-| Applikation | Funktionalitet, korrekt brug af JDBC/JPA |
-| Dokumentation | Klarhed, beskrivelse af implementering |
-
+📌 **Yderligere formalia**
+- I må arbejde sammen gruppevis (max. 4 personer)
+- Deadline for aflevering: fredag 7. marts kl 22.00 (github link og navne på gruppemedlemmer, som sendes på mail til tm@cphbusiness.dk)
 ---
 
 🎯 **God fornøjelse med opgaven!** 🚀
