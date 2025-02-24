@@ -71,8 +71,8 @@ For at automatisere platformens funktioner skal du implementere:
 
 ---
 
-## **4️⃣ Brug af Databasen fra en Applikation (JDBC/ORM)**
-Du skal udvikle en simpel **applikation**, der interagerer med databasen via en applikation. Hvis du bruger Java kan det være via **JDBC eller JPA**.
+## **4️⃣ Brug af databasen fra en applikation**
+Du skal udvikle en simpel **applikation**, der interagerer med databasen via en applikation. Hvis du bruger Java kan det være via **JDBC eller ORM som JPA**.
 
 📌 **Din opgave:**
 **Implementér en løsning, hvor applikationen**:
@@ -86,7 +86,7 @@ Du skal udvikle en simpel **applikation**, der interagerer med databasen via en 
 1. **SQL-script** med databaseoprettelse.
 2. **SQL script** med de 15 SQL-forespørgsler.
 3. **Stored Procedures, Functions og Triggers**.
-4. **Applikation**, der kalder stored procedures, som angivet i opgave 4.
+4. **Applikation** som angivet i opgave 4.
 5. **Dokumentation** for at løsningen fungerer.
 6. **Kort redegørelse** med jeres betragtninger om brugen af SQL programmering (fordele og ulemper).
 
