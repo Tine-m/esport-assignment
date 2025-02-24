@@ -88,9 +88,10 @@ Du skal udvikle en simpel **applikation**, der interagerer med databasen via en 
 3. **Stored Procedures, Functions og Triggers**.
 4. **Applikation**, der kalder stored procedures, som angivet i opgave 4.
 5. **Dokumentation** for at løsningen fungerer.
+6. **Kort redegørelse** med jeres betragtninger om brugen af SQL programmering (fordele og ulemper).
 
 📌 **Yderligere formalia**
-- I må arbejde sammen gruppevis (max. 4 personer)
+- I må arbejde sammen gruppevis (max. 4 personer, men gerne mindre grupper)
 - Deadline for aflevering: fredag 7. marts kl 22.00 (github link og navne på gruppemedlemmer, som sendes på mail til tm@cphbusiness.dk)
 ---
 
